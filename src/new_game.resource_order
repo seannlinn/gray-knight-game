@@ -18,8 +18,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"sShortSwordJ","order":6,"path":"sprites/sShortSwordJ/sShortSwordJ.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
+    {"name":"sShortSwordR","order":7,"path":"sprites/sShortSwordR/sShortSwordR.yy",},
     {"name":"sPlayerJ","order":3,"path":"sprites/sPlayerJ/sPlayerJ.yy",},
+    {"name":"sPlayerS","order":4,"path":"sprites/sPlayerS/sPlayerS.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"sShortSwordS","order":8,"path":"sprites/sShortSwordS/sShortSwordS.yy",},
+    {"name":"sShortSword","order":5,"path":"sprites/sShortSword/sShortSword.yy",},
   ],
 }

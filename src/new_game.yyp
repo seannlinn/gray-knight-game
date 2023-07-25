@@ -35,11 +35,16 @@
   },
   "resources": [
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"sShortSwordJ","path":"sprites/sShortSwordJ/sShortSwordJ.yy",},},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},},
+    {"id":{"name":"sShortSwordR","path":"sprites/sShortSwordR/sShortSwordR.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sPlayerJ","path":"sprites/sPlayerJ/sPlayerJ.yy",},},
+    {"id":{"name":"sPlayerS","path":"sprites/sPlayerS/sPlayerS.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sShortSwordS","path":"sprites/sShortSwordS/sShortSwordS.yy",},},
+    {"id":{"name":"sShortSword","path":"sprites/sShortSword/sShortSword.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

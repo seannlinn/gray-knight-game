@@ -11,8 +11,6 @@ hsp = move * walksp;
 
 vsp = vsp + grv
 
-grounded = place_meeting(x, y+vsp, oWall)
-
 if (current_jumps < max_jumps) && (key_jump) {
 	vsp = -3
 	current_jumps += 1
@@ -49,7 +47,7 @@ y = y + vsp;
 if (hsp == 0)
 {
 sprite_index = sPlayer
-}
+}  
 else if (key_jump) 
 {
 sprite_index = sPlayerJ	
@@ -65,7 +63,7 @@ sprite_index = sPlayerR
 */
 if (state == states.idle || state == states.running || state == states.jumping || state == states.falling) {
 	if (!place_meeting(x, y+1, oWall)) {
-		if (vsp < 0 ) {
+		if (vsp < 0) {
 			state_set(states.jumping)
 		}
 		else {

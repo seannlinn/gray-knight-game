@@ -2,7 +2,7 @@ x = oPlayer.x;
 y = oPlayer.y;
 
 if (state == states.idle || state == states.running || state == states.jumping || state = states.falling) {
-	if (!place_meeting(oPlayer.x, oPlayer.y+1, oWall)) {
+	if (!place_meeting(x, y+1, oWall)) {
 		if (oPlayer.vsp < 0) {
 			state_set(states.jumping)
 		}
@@ -16,11 +16,6 @@ if (state == states.idle || state == states.running || state == states.jumping |
 	}
 	else {
 		state_set(states.idle);
-	}
-	
-	//jump
-	if (oPlayer.key_jump) {
-		state_set(states.jumping);
 	}
 	
 	//attack

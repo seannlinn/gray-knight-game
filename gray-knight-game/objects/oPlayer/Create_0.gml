@@ -9,10 +9,10 @@ states = {
 	idle : new State(sPlayer),
 	running : new State(sPlayerR),
 	jumping : new State(sPlayerJ),
+	falling : new State(sPlayerF),
 	swinging : new State(sPlayerS)
 }
 
-states.jumping.StateOnEnd(states.idle);
 states.swinging.StateOnEnd(states.idle);
 
 state = states.idle

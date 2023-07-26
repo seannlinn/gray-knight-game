@@ -34,6 +34,9 @@
     "name": "sShortSword",
     "path": "sprites/sShortSword/sShortSword.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sShortSword",
+    "path": "sprites/sShortSword/sShortSword.yy",
+  },
   "visible": true,
 }

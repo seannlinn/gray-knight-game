@@ -7,7 +7,7 @@ current_jumps = 0
 
 states = {
 	idle : new State(sPlayer),
-	running : new State(sPlayerR),
+	walking : new State(sPlayerW),
 	jumping : new State(sPlayerJ),
 	falling : new State(sPlayerF),
 	swinging : new State(sPlayerS)

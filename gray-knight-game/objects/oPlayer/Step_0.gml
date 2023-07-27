@@ -2,7 +2,7 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
-key_attack = keyboard_check_pressed(ord("J"))
+key_swing = keyboard_check_pressed(ord("J"))
 
 //calculate movement
 var move = key_right - key_left;
@@ -41,27 +41,9 @@ if (place_meeting(x, y+vsp, oWall)) {
 
 y = y + vsp;
 
-//animation
+//states
 
-/*
-if (hsp == 0)
-{
-sprite_index = sPlayer
-}  
-else if (key_jump) 
-{
-sprite_index = sPlayerJ	
-}
-else if (key_attack)
-{
-sprite_index = sPlayerS
-}
-else if (place_meeting(x, y+1, oWall))
-{ 
-sprite_index = sPlayerR	
-}
-*/
-if (state == states.idle || state == states.running || state == states.jumping || state == states.falling) {
+if (state == states.idle || state == states.walking || state == states.jumping || state == states.falling) {
 	if (!place_meeting(x, y+1, oWall)) {
 		if (vsp < 0) {
 			state_set(states.jumping)
@@ -72,19 +54,14 @@ if (state == states.idle || state == states.running || state == states.jumping |
 	}
 	else if (hsp != 0) {
 		image_xscale = sign(hsp);
-		state_set(states.running);
+		state_set(states.walking);
 	}
 	else {
 		state_set(states.idle);
 	}
 	
-	//jump
-	if (key_jump) {
-		state_set(states.jumping);
-	}
-	
 	//attack
-	if (key_attack) {
+	if (key_swing) {
 		state_set(states.swinging);
 	}
 }

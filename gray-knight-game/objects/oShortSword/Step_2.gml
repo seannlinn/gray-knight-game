@@ -26,6 +26,7 @@ if (state == states.idle || state == states.walking || state == states.jumping |
 	
 	//attack
 	if (oPlayer.key_swing) {
+		instance_create_layer(x, y, "Weapon", oShortSwordHitbox)
 		state_set(states.swinging);
 	}
 }

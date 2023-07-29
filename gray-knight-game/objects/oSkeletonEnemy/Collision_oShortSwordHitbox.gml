@@ -1,11 +1,11 @@
 hp -= 1
 
 if (oPlayer.image_xscale == 1) {
-	vsp -= 0.5
-	hsp -= 2
+	vsp -= 0.3
+	hsp += 2
 }
 if (oPlayer.image_xscale == -1) {
-	vsp -= 0.5
+	vsp -= 0.3
 	hsp -= 2
 }
 

@@ -20,7 +20,6 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"PlayerStateFree","order":1,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sSkeletonEnemyW","order":1,"path":"sprites/sSkeletonEnemyW/sSkeletonEnemyW.yy",},
     {"name":"ShortSwordStateFree","order":2,"path":"scripts/ShortSwordStateFree/ShortSwordStateFree.yy",},

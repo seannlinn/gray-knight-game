@@ -34,5 +34,5 @@ if (state == states.idle || state == states.walking) {
 	}
 }
 
-
+hsp = 0
 

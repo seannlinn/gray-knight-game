@@ -38,7 +38,6 @@
   },
   "resources": [
     {"id":{"name":"States","path":"scripts/States/States.yy",},},
-    {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sSkeletonEnemyW","path":"sprites/sSkeletonEnemyW/sSkeletonEnemyW.yy",},},
     {"id":{"name":"ShortSwordStateFree","path":"scripts/ShortSwordStateFree/ShortSwordStateFree.yy",},},

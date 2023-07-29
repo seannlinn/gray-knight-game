@@ -7,7 +7,8 @@ flash = 0;
 
 states = {
 	idle : new State(sSkeletonEnemy),
-	walking : new State(sSkeletonEnemyW)
+	walking : new State(sSkeletonEnemyW),
+	dead : new State(sSkeletonEnemyD)
 }
 
 state = states.idle

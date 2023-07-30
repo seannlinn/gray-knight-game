@@ -33,5 +33,5 @@
     "path": "sprites/sShortSwordHB/sShortSwordHB.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

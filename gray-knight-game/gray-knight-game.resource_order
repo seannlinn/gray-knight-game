@@ -36,8 +36,10 @@
     {"name":"sExit","order":4,"path":"sprites/sExit/sExit.yy",},
     {"name":"oShortSwordHitbox","order":5,"path":"objects/oShortSwordHitbox/oShortSwordHitbox.yy",},
     {"name":"sShortSwordF","order":1,"path":"sprites/sShortSwordF/sShortSwordF.yy",},
+    {"name":"sEmpty","order":5,"path":"sprites/sEmpty/sEmpty.yy",},
     {"name":"sShortSwordS","order":3,"path":"sprites/sShortSwordS/sShortSwordS.yy",},
     {"name":"oCamera","order":3,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"sSkeletonEnemyH","order":3,"path":"sprites/sSkeletonEnemyH/sSkeletonEnemyH.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
   ],
 }

@@ -13,6 +13,13 @@ if (hp <= 0) {
 	state_set(states.dead);
 	alarm[0] = 30;
 }
+else {
+	state_set(states.hit);
+	if (hsp != 0) {
+		image_xscale = -sign(hsp);
+	}
+	alarm[1] = 10;
+}
 
 
 

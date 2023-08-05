@@ -24,9 +24,9 @@ y = y + vsp;
 
 //states
 
-if (state == states.dead) {
+if (hp <= 0) {
+	state_set(states.dead);
 	hittable = false;
-	alarm[0] = 36;
 }
 
 else if (state == states.idle || state == states.walking) {

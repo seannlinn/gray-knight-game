@@ -4,6 +4,7 @@ grv = 0.18;
 walksp = 1;
 max_jumps = 1
 current_jumps = 0
+hittable = true;
 
 states = {
 	//free states

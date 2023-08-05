@@ -13,5 +13,6 @@ states = {
 	hit: new State(sSkeletonEnemyH)
 }
 
+states.hit.StateOnEnd = states.idle
 state = states.idle
 

@@ -1,18 +1,17 @@
 
-
 if (hp <= 0) {
-	state_set(states.dead);
-	image_speed = 1;
+	alarm[0] = 36;
 }
-else if (hittable) {
+
+if (hittable) {
 	hp -= 1;
 
 	if (oPlayer.image_xscale == 1) {
-		vsp -= 1;
+		vsp -= 1.5;
 		hsp += 4;
 	}
 	if (oPlayer.image_xscale == -1) {
-		vsp -= 1;
+		vsp -= 1.5;
 		hsp -= 4;
 }
 	state_set(states.hit);

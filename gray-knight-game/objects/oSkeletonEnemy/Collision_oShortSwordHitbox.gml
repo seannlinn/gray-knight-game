@@ -1,24 +1,27 @@
-hp -= 1;
 
-if (oPlayer.image_xscale == 1) {
-	vsp -= 0.3;
-	hsp += 2;
-}
-if (oPlayer.image_xscale == -1) {
-	vsp -= 0.3;
-	hsp -= 2;
-}
 
 if (hp <= 0) {
 	state_set(states.dead);
-	alarm[0] = 30;
+	image_speed = 1;
 }
-else {
+else if (hittable) {
+	hp -= 1;
+
+	if (oPlayer.image_xscale == 1) {
+		vsp -= 1;
+		hsp += 4;
+	}
+	if (oPlayer.image_xscale == -1) {
+		vsp -= 1;
+		hsp -= 4;
+}
 	state_set(states.hit);
+	hittable = false;
 	if (hsp != 0) {
 		image_xscale = -sign(hsp);
 	}
 	alarm[1] = 10;
+	alarm[2] = 20;
 }
 
 

@@ -24,7 +24,12 @@ y = y + vsp;
 
 //states
 
-if (state == states.idle || state == states.walking) {
+if (state == states.dead) {
+	hittable = false;
+	alarm[0] = 36;
+}
+
+else if (state == states.idle || state == states.walking) {
 	if (hsp != 0) {
 		image_xscale = sign(hsp);
 		state_set(states.walking);
@@ -35,3 +40,4 @@ if (state == states.idle || state == states.walking) {
 }
 
 hsp = 0
+
